@@ -48,6 +48,46 @@ const Header = () => {
               </svg>
             </button>
           </div>
+          <div
+            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="mobile-menu-2"
+          >
+            <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-white rounded bg-primary-700 md:bg-transparent md:text-primary-700 md:p-0"
+                  aria-current="page"
+                >
+                  SERVICES
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0"
+                >
+                  ABOUT US
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0"
+                >
+                  CONTACT US
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0"
+                >
+                  CAREERS
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
