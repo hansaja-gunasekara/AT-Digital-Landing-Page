@@ -1,7 +1,16 @@
 import React from "react";
+import Header from "./components/Header";
+
 
 const App = () => {
-  return <div className="bg-red-600">App</div>;
+  return <div >
+
+    <Header/>
+    <div className="mt-10">
+    </div>
+  </div>;
+
+  //<div className></div>;
 };
 
 export default App;
