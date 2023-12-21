@@ -16,16 +16,13 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     extend: {
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-      },
       colors: {
         "primary-color": "#6B3CC9",
         "secondary-color": "#F28D35",
         "analogous-color-1": "#6A44F2",
         "analogous-color-2": "#1CBDDD",
         "triadic-color-1": "#52378C",
-        "dark-color": "#78BF91",
+        "dark-color": "#4DCA79",
         "text-color": "#2F2F2F",
         "text-color-light": "#545A75",
         "text-color-subtle": "#9C9991",
