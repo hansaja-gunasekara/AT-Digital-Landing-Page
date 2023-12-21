@@ -3,7 +3,7 @@ import Logo from "../Assets/Logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-color">
+    <footer className="mt-5 bg-primary-color">
       <div className="p-4 py-6 lg:py-8 lg:mx-14 md:mx-9 sm:mx-4">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -28,42 +28,27 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Gatsby
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     NextJS
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     NodeJS
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     GraphQL
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Laravel
                   </a>
                 </li>
@@ -75,42 +60,27 @@ const Footer = () => {
               </h2>
               <ul className="space-y-2 text-sm text-white">
                 <li>
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
-                  >
+                  <a href="#" className="hover:underline ">
                     Social Media Marketing
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Web & Mobile App Development
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Data & Analytics
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Google Marketing Solutions
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Search Engine Optimization
                   </a>
                 </li>
@@ -128,7 +98,7 @@ const Footer = () => {
                   Privacy Policy
                 </a>
               </div>
-              {/* <div className="flex-grow border-b border-red-800"></div> */}
+
               <div className="mx-4 text-white">|</div>
               <div className="text-center">
                 <a href="#" className="text-white">
