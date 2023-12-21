@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mt-5 bg-primary-color">
       <div className="p-4 py-6 lg:py-8 lg:mx-14 md:mx-9 sm:mx-4">
-        <div className="md:flex md:justify-between">
+        <div className="lg:flex lg:justify-between">
           <div className="mb-6 md:mb-0">
             <div>
               <img src={Logo} className="w-[238.89px] me-3" alt="" />
@@ -16,7 +16,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2 mt-9 md:mt-0">
+          <div className="grid grid-cols-1 gap-8 md:gap-6 md:grid-cols-2 mt-9 lg:mt-0">
             <div>
               <h2 className="mb-6 text-[21px] text-white normal-case">
                 Our Technologies
