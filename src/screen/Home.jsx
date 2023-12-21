@@ -4,6 +4,7 @@ import HeroText from "../components/home/HeroText";
 import Content from "../components/Content";
 
 import Image1 from "../Assets/image_1.png";
+import Image2 from "../Assets/image_2.png";
 
 const Home = () => {
   return (
