@@ -4,7 +4,7 @@ import Logo from "../Assets/Logo.svg";
 const Header = () => {
   return (
     <header>
-      <nav className="bg-red-400 border-gray-200 px-4 lg:px-6 py-2.5">
+      <nav className="bg-primary-color border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex flex-wrap items-center justify-between lg:mx-14 md:mx-9 sm:mx-4">
           <a className="flex items-center">
             <img
