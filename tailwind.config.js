@@ -16,6 +16,9 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
       colors: {
         "primary-color": "#6B3CC9",
         "secondary-color": "#F28D35",
@@ -35,4 +38,3 @@ module.exports = {
   },
   plugins: [],
 };
-
